@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #4f46e5, #06b6d4);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    color: #1e1b4b;
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.text-input {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+select {
+    padding: 10px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    outline: none;
+    color: #334155;
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    padding: 15px;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    resize: none;
+    font-size: 1.1rem;
+    outline: none;
+    color: #1e293b;
+}
+
+textarea:focus {
+    border-color: #4f46e5;
+}
+
+.controls {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.controls button {
+    background: #f1f5f9;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #475569;
+    transition: all 0.2s;
+}
+
+.controls button:hover {
+    background: #e2e8f0;
+    color: #4f46e5;
+}
+
+#translate-btn {
+    width: 100%;
+    padding: 14px;
+    background: #4f46e5;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#translate-btn:hover {
+    background: #4338ca;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .wrapper {
+        flex-direction: column;
+    }
+}
