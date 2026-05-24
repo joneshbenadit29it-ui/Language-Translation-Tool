@@ -22,7 +22,7 @@
 
 ## 🚀 Live Demo
 
-✨ **Experience the live web application here:** [👉 Click to Open QuickTranslate AI Live Interface 👈](file:///C:/Users/joseph%20selvan%20.s/OneDrive/Documents/Desktop/translation-tool/index.html)
+✨ **Experience the live web application here:** [👉 file:///C:/Users/joseph%20selvan%20.s/OneDrive/Documents/Desktop/translation-tool/index.html 👈]
 
 ---
 
